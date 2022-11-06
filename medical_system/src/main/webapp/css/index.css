@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	font-family: "이서윤체";
+	max-width:1920px;
+	max-height:1080px;
+}
+
+header {
+	background-color: #b0f1ad;
+	width: 100%;
+	height: 8vh;
+	font-size: 1.5vw;
+	position:sticky;
+	border-bottom:2px solid white;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover { /* 마우스를 댔을 때 */
+	color: white;
+}
+
+#rtl_div { /* 우측 상단 로그인 관련 메뉴 div */
+	overflow: hidden;
+}
+
+#rtl_div li:nth-last-child(1) { /* 제목(빙글빙글) */
+	float: left;
+	line-height: 1.3em;
+	margin-left: 20px;
+	font-size: 2em;
+}
+
+#rtl_div li:nth-last-child(1) a { 
+	color: #70bafb;
+}
+
+#rtl_div li:nth-last-child(1) a:hover{ 
+	color: white;
+}
+
+#rtl_div li { /* 우측 상단 로그인 관련 메뉴 */
+	float: right;
+	margin-right: 25px;
+	font-size: 0.9em;
+}
+
+#nav{
+	background-color : #c0f9bd;
+	height: 5vh;
+	font-size:1.5vw;
+	line-height:1.5em;
+}
+#nav .nav_ul li{
+	float:left;
+	text-align:center;
+	width:24.5%;
+	border-right:2px solid white;
+}
+
