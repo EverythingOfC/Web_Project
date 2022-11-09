@@ -1,0 +1,30 @@
+@charset "EUC-KR";
+
+
+form{
+	width:35%;
+	position:absolute;
+	left:32.5%;
+	top:35%;
+
+}
+
+
+fieldset{
+	text-align:center;
+	font-size:3em;
+}
+
+
+input,label{
+	
+	margin-top:30px;
+	font-size:0.4em;
+	padding:10px;
+}
+
+input[type=submit]{
+	margin-top:40px;
+	margin-bottom:20px;
+	padding:10px;
+}
