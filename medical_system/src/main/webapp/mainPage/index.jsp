@@ -30,12 +30,13 @@
 				<li><a href="#">로그인</a></li>
 				<li><a href="#">계정찾기</a></li>
 				<li id="menu"
-					style="float: left; margin-left: 20px; line-height: 7.5vh;"><a
+					style="float: left; margin-left: 20px; line-height: 18vh;"><a
 					href="#"> <img
-						style="width: 3vw; height: 6.5vh; vertical-align: middle;"
+						style="width: 6vw; height: 13vh; vertical-align: middle;"
 						src="../image/menu.png" /></a></li>
-				<li><a href="index.jsp">빙글 빙글</a></li>
 			</ul>
+			<a href="index.jsp"><img src="../image/logo.png"/></a><br>
+			<a href="index.jsp">빙글 빙글</a>
 		</div>
 	</header>
 
@@ -53,5 +54,6 @@
 		
 		</div>	
 	</nav>
+</body>
 
 </html>
