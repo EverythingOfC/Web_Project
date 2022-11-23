@@ -1,9 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
 	pageEncoding="EUC-KR"%>
-<head>
-<link rel="stylesheet" href="../css/index.css" type="text/css">
-<!--  cssÆÄÀÏ Àû¿ë -->
-</head>
 
 <div class="box01">
 	<header>
@@ -23,8 +19,6 @@
 				href="../mainPage/index.jsp">ºù±Û ºù±Û</a>
 		</div>
 	</header>
-
-	<div id="clear"></div>
 
 	<nav>
 		<div id="nav">

@@ -5,6 +5,7 @@
 <head>
 <meta charset="EUC-KR">
 <title>Insert title here</title>
+<link rel="stylesheet" href="../css/index.css" type="text/css">
 <link rel="stylesheet" type="text/css" href="../css/login.css"/>
 </head>
 <body>
@@ -21,12 +22,17 @@
 		<label for="pwd">비밀번호</label>
 		<input type="text" id="pwd" name="pwd"><br>
 		
-		<input type="submit" value="로그인">&nbsp;&nbsp;
+		<label for="doctor">의료진</label>
+		<input style="margin:0px;"type="radio" name="member" id="doctor">
+		<label for="patient">환자</label>
+		<input type="radio" name="member" id="patient">&emsp;
+		
+		<input type="submit" value="로그인">
 		<input type="submit" value="계정찾기">
 		
 		</fieldset>
 	</form>
 	
-	
+	<jsp:include page="../mainPage/index_footer.jsp"/>
 </body>
 </html>
